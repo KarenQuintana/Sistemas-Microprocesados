@@ -1,6 +1,5 @@
 /*
 Laboratorio1 Contador de personas automatico
-Integrantes:Herdoíza Adriana_Farinango Luis_Quintana Karen
 1.  El contador debe ser de 1 al 50.
 2.  Debe tener un botón de reset de conteo.
 3.  Si una persona ingresa y sale se debe restar el valor de conteo.
