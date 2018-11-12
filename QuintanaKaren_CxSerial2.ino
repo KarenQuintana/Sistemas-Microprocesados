@@ -1,6 +1,8 @@
 /* 
  *  UNIVERSIDAD TÉCNICA DEL NORTE
  *  Nombre: Karen Quintana
+ *  Fecha: 13/11/2018
+ *  TEMA: DEBER CX SERIAL 2
  *  Realizar un sistema que permite determinar el número de vocales dentro de una 
  *  palabra. Este dato es ingresado por comunicación serial y la respuesta del mismo de igual manera. 
  *  Subir su link de github. 
