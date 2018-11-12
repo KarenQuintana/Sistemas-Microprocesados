@@ -11,13 +11,13 @@ int tamP=0;// variable para el tamaño de la palabra a ingresar
 int contV=0;// variable para contador de vocales
 int i=0;// variable de conteo ó recorrido
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600);//habilitar comunicación serial 
   Serial.println("Ingrese una palabra");//Solicitar Dato una vez para todo el programa
 }
 
 void loop() {
     
-   while(Serial.available()>0){
+   while(Serial.available()>0){// mientras exista el dato para procesar 
     palabra=Serial.readString();//Lee palabra ingresada
     tamP=palabra.length();//conocer el tamaño del string
     for(i=0;i<=tamP;i++){// declaramos que la variable de conteo para recorrer toda la palabra
