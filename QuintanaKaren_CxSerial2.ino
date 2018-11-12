@@ -6,7 +6,7 @@
  *  Subir su link de github. 
  *  Ejemplo 1: Ingreso: CIERCOM Retorna: 3 Ejemplo 2. Ingreso: DATOS Retorna: 2
  */
-String palabra;
+String palabra;// declaramos variable que ingresa como string
 int tamP=0;// variable para el tamaño de la palabra a ingresar
 int contV=0;// variable para contador de vocales
 int i=0;// variable de conteo ó recorrido
